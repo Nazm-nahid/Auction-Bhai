@@ -12,4 +12,4 @@ Authentication, authorisation and registration for sellers and buyers are out of
 6) "Delicious bananas LTD" wants to see a list of bids on his lot
 7) "Delicious bananas LTD" wants to remove sold lot
 
-Add authentication using passport.
+Add authentication and authorization using passport.
