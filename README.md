@@ -1,5 +1,5 @@
-! Problem Statement :
-# Design rest full api for following end point
+# Problem Statement :
+## Design rest full api for following end point
 
 
 Each endpoint description should contain URL, request/response payload and response status code.
@@ -15,18 +15,15 @@ Authentication, authorisation and registration for sellers and buyers are out of
 
 Add authentication and authorization using passport.
 
-! Installation guide
+# Installation guide
 
-# Make 
+## Make 
 .env file using .env.example
-# Run
-composer install
-# Run
-php artisan migrate
-# Run
-php artisan passport:install
-# Run
-php artisan key:generate
-# Run
-php artisan passport:client --personal
+## Run
+##
+        composer install
+        php artisan migrate
+        php artisan passport:install
+        php artisan key:generate
+        php artisan passport:client --personal
 
