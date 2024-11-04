@@ -14,3 +14,19 @@ Authentication, authorisation and registration for sellers and buyers are out of
 7) "Delicious bananas LTD" wants to remove sold lot
 
 Add authentication and authorization using passport.
+
+! Installation guide
+
+# Make 
+.env file using .env.example
+# Run
+composer install
+# Run
+php artisan migrate
+# Run
+php artisan passport:install
+# Run
+php artisan key:generate
+# Run
+php artisan passport:client --personal
+
